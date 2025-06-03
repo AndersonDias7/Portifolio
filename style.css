@@ -331,15 +331,16 @@ p {
         top: 10px;
     }
 
-    button {
+    button .buttons{
         width: 120vw;
         display: flex;
-        display: inline-flex;
-
         flex-direction: column;
     }
     .container a {
         display: none;
+    }
+    .about-text{
+        width: 100vw;
     }
 
    
