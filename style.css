@@ -319,6 +319,7 @@ p {
 
 
 
+
 @media (max-width: 768px) {
     .hero {
         flex-direction: column;
@@ -339,10 +340,11 @@ p {
         
     }
     .buttons{
-        width: 95vw;
+        width: 278px;
         display: flex;
         flex-direction: row;
         justify-content: center;
+        
     }
 
     .container a {
@@ -361,6 +363,11 @@ p {
     .about{
         padding: 15px;
     }
-
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
 }
